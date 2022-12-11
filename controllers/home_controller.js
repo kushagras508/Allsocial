@@ -1,5 +1,7 @@
 module.exports.home = function home(req,res){
-    res.render('home', {
+    console.log(req.cookies);
+    
+    return res.render('home', {
         title: "Home"
     });
 }
