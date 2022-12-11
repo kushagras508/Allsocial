@@ -1,21 +1,21 @@
 module.exports.profile = function(req,res){
-    res.render('user_profile',{
+    return res.render('user_profile',{
         title: "Profile"
     });
 }
 module.exports.posts = function(req,res){
-    res.render('posts',{
+    return res.render('posts',{
         title: "Posts",
         item: "Your Posts"
     });
 }
 module.exports.signUp = function(req,res){
-    res.render('user_sign_up',{
-        title: "Sign Up"
+    return res.render('user_sign_up',{
+        title: "AllSocial | Sign Up"
     });
 }
 module.exports.signIn = function(req,res){
-    res.render('user_sign_in',{
-        title: "Sign In"
+    return res.render('user_sign_in',{
+        title: "AllSocial | Sign In"
     });
 }
