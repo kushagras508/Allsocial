@@ -11,11 +11,11 @@ module.exports.posts = function(req,res){
 }
 module.exports.signUp = function(req,res){
     res.render('user_sign_up',{
-        title: "Posts"
+        title: "Sign Up"
     });
 }
 module.exports.signIn = function(req,res){
     res.render('user_sign_in',{
-        title: "Posts"
+        title: "Sign In"
     });
 }
